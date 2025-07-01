@@ -1,0 +1,34 @@
+.card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+}
+
+.title{
+    color: gray;
+    font-size: 18px;
+}
+
+button {
+  border: none;           /* إزالة الإطار الخارجي الافتراضي للزر */
+  outline: 0;             /* إزالة الخط الخارجي عند التركيز (focus) */
+  display: inline-block;  /* يجعل الزر يظهر كعنصر داخل السطر مع إمكانية تحديد العرض والارتفاع */
+  padding: 8px;           /* المسافة الداخلية بين محتوى الزر وحدوده من جميع الجهات */
+  color: white;           /* لون نص الزر أبيض */
+  background-color: #000; /* لون خلفية الزر أسود */
+  text-align: center;     /* محاذاة النص داخل الزر إلى الوسط أفقيًا */
+  cursor: pointer;        /* شكل مؤشر الماوس يصبح يد عند المرور فوق الزر */
+  width: 100%;            /* عرض الزر يملأ كامل عرض الحاوية الأب */
+  font-size: 18px;        /* حجم الخط داخل الزر 18 بيكسل */
+}
+
+a { 
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover , a:hover {
+    opacity:  0.7;
+}
